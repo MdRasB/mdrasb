@@ -5,7 +5,7 @@
 </h3>
 
 <p align="center">
-Focused on Backend Engineering, DevOps, Linux, and scalable infrastructure systems.
+CS Student • Future Software Engineer • Platform Engineering Enthusiast
 </p>
 
 ---
