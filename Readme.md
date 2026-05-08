@@ -61,12 +61,12 @@ Focused on Backend Engineering, DevOps, Linux, and scalable infrastructure syste
 <p align="center">
   <img 
     height="200em"
-    width="400em"
+    width="380em"
     src="https://streak-stats.demolab.com?user=MdRasB&theme=tokyonight&hide_border=true" 
   />
   <img 
     height="200em"
-    width="450em"
+    width="420em"
     src="https://github-readme-activity-graph.vercel.app/graph?username=MdRasB&theme=tokyo-night&hide_border=true" 
   />
 </p>
