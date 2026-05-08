@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Muhammad Rasek</h1>
 
 <h3 align="center">
-CS Student • Future Software Engineer • Platform Engineering Enthusiast
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=CS+Student+%E2%80%A2+Aspiring+SWE;Platform+Engineering+%7C+Backend+%7C+DevOps;Go+%7C+Linux+%7C+Scalable+Systems" alt="Typing SVG" />
 </h3>
 
 <p align="center">
@@ -18,7 +18,7 @@ Focused on Backend Engineering, DevOps, Linux, and scalable infrastructure syste
   - Platform Engineering
   - DevOps & Infrastructure
   - Linux Systems
-- 🛠️ Main language: **Golang**
+- 🛠️ Main Stack: **Golang, PostgreSQL**
 - 🌱 Currently learning:
   - Building backend services with Go
   - Linux internals & system administration
@@ -109,6 +109,6 @@ while(true) {
 
 <p align="center">
   <i>
-    "Building systems, understanding infrastructure, and engineering scalable solutions."
+    "Platform engineering is a mindset — build systems that scale, automate what's repetitive, and engineer for reliability."
   </i>
 </p>
