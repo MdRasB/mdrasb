@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm MdRasB</h1>
+<h1 align="center">Hi 👋, I'm Muhammad Rasek</h1>
 
 <h3 align="center">
 CS Student • Future Software Engineer • Platform Engineering Enthusiast
@@ -29,22 +29,18 @@ Focused on Backend Engineering, DevOps, Linux, and scalable infrastructure syste
 ## 🧰 Tech Stack
 
 ### Languages
-<p>
+<p align="center">
   <img src="https://skillicons.dev/icons?i=c,cpp,go,java,bash" />
 </p>
 
 ### Database
-<p>
-  <img src="https://skillicons.dev/icons?i=postgresql" />
-</p>
-
-<p>
-  <img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=database&logoColor=white" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgresql,mysql" />
 </p>
 
 ### Tools & Technologies
-<p>
-  <img src="https://skillicons.dev/icons?i=git,docker,linux,ubuntu,postman,vscode,idea" />
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,linux,ubuntu,postman,vscode,idea" />
 </p>
 
 ---
@@ -52,25 +48,27 @@ Focused on Backend Engineering, DevOps, Linux, and scalable infrastructure syste
 ## 📊 GitHub Analytics
 
 <p align="center">
-
-  <img
+  <img 
     height="180em"
-    src="https://github-readme-stats.vercel.app/api?username=MdRasB&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10"
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=MdRasB&show_icons=true&theme=tokyonight&hide_border=true" 
   />
-
-  <img
+  <img 
     height="180em"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=MdRasB&layout=compact&theme=tokyonight&hide_border=true&border_radius=10"
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MdRasB&layout=compact&theme=tokyonight&hide_border=true" 
   />
-
 </p>
 
 <p align="center">
-
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com/?user=MdRasB&theme=tokyonight&hide_border=true&border_radius=10"
+  <img 
+    height="200em"
+    width="400em"
+    src="https://streak-stats.demolab.com?user=MdRasB&theme=tokyonight&hide_border=true" 
   />
-
+  <img 
+    height="200em"
+    width="450em"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=MdRasB&theme=tokyo-night&hide_border=true" 
+  />
 </p>
 
 ---
@@ -90,7 +88,7 @@ while(true) {
 
 ## 📫 Connect With Me
 
-<p align="left">
+<p align="center">
   <a href="https://www.linkedin.com/in/mdrkbs-bd9596">
     <img src="https://skillicons.dev/icons?i=linkedin" />
   </a>
@@ -100,16 +98,11 @@ while(true) {
   </a>
 
   <a href="https://www.facebook.com/rasek.biswas">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
+    <img 
+      heigth="48em"
+      width="48em"
+      src="https://cdn.simpleicons.org/facebook/1877F2" />
   </a>
-</p>
-
----
-
-## 👀 Profile Views
-
-<p align="left">
-  <img src="https://komarev.com/ghpvc/?username=MdRasB&label=Profile%20Views&color=0e75b6&style=flat" />
 </p>
 
 ---
