@@ -18,7 +18,7 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
   - Platform Engineering
   - DevOps & Infrastructure
   - Linux Systems
-- 🛠️ Main Stack: **Golang, PostgreSQL**
+- 🛠️ Main Stack: **Golang**
 - 🌱 Currently learning:
   - Building backend services with Go
   - Linux internals & system administration
