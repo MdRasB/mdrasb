@@ -12,7 +12,7 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
 
 ## 🚀 About Me
 
-- 🎓 Currently a **Computer Science student**
+- 🎓 Currently a **Computer Science & Engineering student**
 - 💡 Interested in:
   - Backend Engineering
   - Platform Engineering
