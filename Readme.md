@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Muhammad Rasek</h1>
+<h1 align="center">Hi 👋, I'm Muhammad Rasek Biswas</h1>
 
 <h3 align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=CS+Student+%E2%80%A2+Aspiring+SWE;Platform+Engineering+%7C+Backend;Go+%7C+Linux+%7C+Scalable+Systems" alt="Typing SVG" />
