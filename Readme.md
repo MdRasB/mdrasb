@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Muhammad Rasek Biswas</h1>
 
 <h3 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=CS+Student+%E2%80%A2+Aspiring+SWE;Platform+Engineering+%7C+Backend;Go+%7C+Linux+%7C+Scalable+Systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=CS+Student+%E2%80%A2+Aspiring+SWE;Platform+Engineering+%7C+Backend+Engineering;Golang+%7C+Distributed+Systems" alt="Typing SVG" />
 </h3>
 
 <p align="center">
@@ -17,7 +17,7 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
   - Backend Engineering
   - Platform Engineering
   - DevOps & Infrastructure
-  - Linux Systems
+  - Distributed Systems
 - 🛠️ Main Stack: **Golang**
 - 🌱 Currently learning:
   - Building backend services with Go
@@ -48,26 +48,27 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img 
+  <img
     height="180em"
-    src="https://github-readme-stats-sigma-five.vercel.app/api?username=MdRasB&show_icons=true&theme=tokyonight&hide_border=true" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api?username=MdRasB&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true"
   />
-  <img 
+  <img
     height="180em"
-    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MdRasB&layout=compact&theme=tokyonight&hide_border=true" 
+    src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=MdRasB&layout=compact&theme=tokyonight&hide_border=true&langs_count=6"
   />
 </p>
 
 <p align="center">
-  <img 
-    height="200em"
-    width="380em"
-    src="https://streak-stats.demolab.com?user=MdRasB&theme=tokyonight&hide_border=true" 
+  <img
+    height="195em"
+    src="https://streak-stats.demolab.com?user=MdRasB&theme=tokyonight&hide_border=true"
   />
-  <img 
-    height="200em"
-    width="420em"
-    src="https://github-readme-activity-graph.vercel.app/graph?username=MdRasB&theme=tokyo-night&hide_border=true" 
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=MdRasB&theme=tokyo-night&hide_border=true&area=true"
+    width="95%"
   />
 </p>
 
@@ -107,8 +108,5 @@ while(true) {
 
 ---
 
-<p align="center">
-  <i>
-    "Platform engineering is a mindset — build systems that scale, automate what's repetitive, and engineer for reliability."
-  </i>
-</p>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&text=Building%20in%20public.%20Learning%20in%20depth.%20Shipping%20with%20intent.&fontSize=14&fontColor=aaa&fontAlignY=65" width="100%"/>
