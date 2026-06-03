@@ -58,12 +58,13 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
   />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img
     height="195em"
     src="https://streak-stats.demolab.com?user=MdRasB&theme=tokyonight&hide_border=true"
   />
 </p>
+-->
 
 <p align="center">
   <img
