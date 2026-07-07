@@ -40,7 +40,7 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
 
 ### Tools & Technologies
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,linux,ubuntu,postman,vscode,idea" />
+  <img src="https://skillicons.dev/icons?i=git,githubactions,docker,linux,ubuntu,arch,postman,vscode,idea" />
 </p>
 
 ---
