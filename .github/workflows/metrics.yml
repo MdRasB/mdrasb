@@ -26,8 +26,8 @@ jobs:
           base_indepth: yes           # richer core-stats section with more detail
 
           # Contribution calendar (confirmed-working setting from before)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          # plugin_isocalendar: yes
+          # plugin_isocalendar_duration: full-year
 
           # Top languages with clear % labels
           plugin_languages: yes
