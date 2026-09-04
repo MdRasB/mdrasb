@@ -44,7 +44,7 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
 </p>
 
 ---
-
+<!--
 ## 📊 GitHub Analytics
 
 <p align="center">
@@ -64,13 +64,18 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
     src="https://streak-stats.demolab.com?user=MdRasB&theme=tokyonight&hide_border=true"
   />
 </p>
--->
+
 
 <p align="center">
   <img
     src="https://github-readme-activity-graph.vercel.app/graph?username=MdRasB&theme=tokyo-night&hide_border=true&area=true"
     width="95%"
   />
+</p>
+-->
+## 📊 GitHub Analytics
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MdRasB/MdRasB/main/github-metrics.svg" width="100%" />
 </p>
 
 ---
