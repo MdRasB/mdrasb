@@ -75,7 +75,11 @@ CS Student • Future Software Engineer • Platform Engineering Enthusiast
 -->
 ## 📊 GitHub Analytics
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MdRasB/MdRasB/main/github-metrics.svg" width="100%" />
+  <img height="180em" src="https://raw.githubusercontent.com/MdRasB/MdRasB/main/github-stats.svg" />
+  <img height="180em" src="https://raw.githubusercontent.com/MdRasB/MdRasB/main/github-langs.svg" />
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MdRasB/MdRasB/main/github-activity.svg" width="95%" />
 </p>
 
 ---
