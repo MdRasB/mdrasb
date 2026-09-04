@@ -1,4 +1,4 @@
-name: Generate GitHub Metrics SVG
+name: Refresh GitHub Stats Cards
 
 on:
   schedule:
@@ -8,31 +8,52 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
-  github-metrics:
+  update-stats:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: MdRasB
-          filename: github-metrics.svg
+      - uses: actions/checkout@v4
 
-          template: classic
-          config_timezone: Asia/Dhaka
-          config_display: large       # bigger, easier-to-read card
-          base_indepth: yes           # richer, more clearly labeled core stats
+      - name: Fetch stats card
+        run: |
+          curl -fsSL --retry 5 --retry-delay 10 \
+            "https://github-readme-stats.vercel.app/api?username=MdRasB&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" \
+            -o new-stats.svg || true
+          if grep -q "<svg" new-stats.svg 2>/dev/null; then
+            mv new-stats.svg github-stats.svg
+          else
+            echo "Stats fetch failed this run — keeping previous version"
+          fi
 
-          # Contribution calendar - shortened to half-year so it's less
-          # cluttered / easier to scan than the full 12 months
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+      - name: Fetch top languages card
+        run: |
+          curl -fsSL --retry 5 --retry-delay 10 \
+            "https://github-readme-stats.vercel.app/api/top-langs/?username=MdRasB&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" \
+            -o new-langs.svg || true
+          if grep -q "<svg" new-langs.svg 2>/dev/null; then
+            mv new-langs.svg github-langs.svg
+          else
+            echo "Top-langs fetch failed this run — keeping previous version"
+          fi
 
-          # Top languages, with clear % labels
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_threshold: 0%
-          plugin_languages_details: percentage
-          plugin_languages_categories: markup, programming
+      - name: Fetch activity graph
+        run: |
+          curl -fsSL --retry 5 --retry-delay 10 \
+            "https://github-readme-activity-graph.vercel.app/graph?username=MdRasB&theme=tokyo-night&hide_border=true&area=true" \
+            -o new-activity.svg || true
+          if grep -q "<svg" new-activity.svg 2>/dev/null; then
+            mv new-activity.svg github-activity.svg
+          else
+            echo "Activity graph fetch failed this run — keeping previous version"
+          fi
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg github-langs.svg github-activity.svg 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "chore: refresh GitHub stats cards [skip ci]"
+          git push
