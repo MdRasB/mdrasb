@@ -23,7 +23,7 @@ jobs:
           template: classic
           config_timezone: Asia/Dhaka
           config_display: large
-          base_indepth: yes
+          # base_indepth: yes
 
           # Contribution calendar (confirmed working from your last run)
           plugin_isocalendar: yes
