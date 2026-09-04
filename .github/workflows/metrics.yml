@@ -22,12 +22,12 @@ jobs:
 
           template: classic
           config_timezone: Asia/Dhaka
-          config_display: large       # bigger, more readable card
-          base_indepth: yes           # richer core-stats section with more detail
+          config_display: large
+          base_indepth: yes
 
-          # Contribution calendar (confirmed-working setting from before)
-          # plugin_isocalendar: yes
-          # plugin_isocalendar_duration: full-year
+          # Contribution calendar (confirmed working from your last run)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
 
           # Top languages with clear % labels
           plugin_languages: yes
@@ -36,14 +36,35 @@ jobs:
           plugin_languages_details: percentage
           plugin_languages_categories: markup, programming
 
-          # Lines of code changed over time — a colorful area chart
-          plugin_lines: yes
+          # plugin_lines and plugin_habits removed - both crashed in your run
+          # plugin_topics removed - rendered empty, no topics on your starred repos
 
-          # Coding habits — busiest days/hours as visual charts
-          plugin_habits: yes
-          plugin_habits_charts: yes
-          plugin_habits_facts: yes
-
-          # Starred topics as a tag cloud — adds visual variety
-          plugin_topics: yes
-          plugin_topics_limit: 8
+          # Real dark theme, built from the ACTUAL CSS classes in your
+          # generated SVG - not guessed. Selectors below are copy-verified
+          # from the file you sent (h1/h2/h3, .field svg, footer, etc.)
+          extras_css: |
+            .items-wrapper {
+              background-color: #1a1b26;
+              border-radius: 12px;
+              padding: 20px 24px;
+            }
+            svg {
+              color: #c0caf5 !important;
+            }
+            h1, h2, h3 {
+              color: #7aa2f7 !important;
+            }
+            .field svg {
+              fill: #7aa2f7 !important;
+            }
+            footer {
+              color: #565f89 !important;
+            }
+            .field.language.details small,
+            .field.license.details small {
+              color: #a9b1d6 !important;
+            }
+            .field.error, .field.error svg {
+              color: #f7768e !important;
+              fill: #f7768e !important;
+            }
