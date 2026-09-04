@@ -23,7 +23,7 @@ jobs:
           template: classic
           config_timezone: Asia/Dhaka
           config_display: large
-          # base_indepth: yes
+          base_indepth: yes
 
           # Contribution calendar (confirmed working from your last run)
           plugin_isocalendar: yes
@@ -46,7 +46,7 @@ jobs:
             .items-wrapper {
               background-color: #1a1b26;
               border-radius: 12px;
-              padding: 20px 24px;
+              padding: 20px 20px;
             }
             svg {
               color: #c0caf5 !important;
